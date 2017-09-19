@@ -87,7 +87,7 @@ $(function() {
             });
 
         it('contain at least 1 element', function() {
-            expect($('.feed').find('.entry').length).not.toBe(0);
+            expect($('.feed .entry').length).not.toBe(0);
         });
     });
     /* A new test suite named "New Feed Selection"*/
